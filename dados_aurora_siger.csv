@@ -1,0 +1,49 @@
+ciclo,modulo,tipo,codigo_sensor,tensao_v,corrente_a,carga_rede_pct,perda_pacotes_pct,latencia_prevista_ms,latencia_observada_ms,status,prioridade,mensagem
+1,Comunicacao Central,comunicacao,0x1A01,24.43,3.02,56.4,1.5,268.2,276.32,ativo,3,Sem anomalias
+1,Controle de Missao,comunicacao,0x1A08,23.85,2.85,48.0,1.62,255.32,253.69,manutencao,3,Manutencao preventiva agendada
+1,Comando Orbital,comunicacao,0x1A0F,24.31,1.92,60.4,1.17,294.13,296.86,ativo,3,Sem anomalias
+1,Habitacao Alfa,habitacao,0x1A16,12.33,1.52,80.3,0.59,353.55,345.19,ativo,2,Operacao normal
+1,Habitacao Beta,habitacao,0x1A1D,11.71,1.91,38.8,0.87,259.4,249.51,ativo,1,Sem anomalias
+1,Agricultura Norte,agricultura,0x1A24,12.31,1.06,23.4,3.34,268.48,271.62,alerta,3,Queda de tensao no transmissor
+1,Agricultura Sul,agricultura,0x1A2B,11.88,3.05,34.5,0,225.36,215.6,manutencao,1,Calibracao de sensor
+1,Laboratorio Geologico,laboratorio,0x1A32,12.57,0.88,47.1,0.68,284.68,289.23,ativo,1,Operacao normal
+1,Laboratorio Biologico,laboratorio,0x1A39,11.33,3.18,59.4,2.81,324.95,352.57,alerta,3,Queda de tensao no transmissor
+1,Suporte Medico,suporte medico,0x1A40,12.21,1.83,36.7,0,241.53,234.91,ativo,3,Sem anomalias
+1,Armazenamento de Dados,armazenamento de dados,0x1A47,11.22,2.9,21.3,0.21,201.11,228.17,alerta,5,Queda de tensao no transmissor
+1,Antena Redundante,comunicacao,0x1A4E,23.67,2.22,41.7,0.9,242.37,236.46,ativo,3,Enlace estavel
+2,Comunicacao Central,comunicacao,0x1A02,24.07,3.5,27.2,0,170.16,177.3,ativo,3,Sem anomalias
+2,Controle de Missao,comunicacao,0x1A09,24.21,3.2,53.5,2.55,274.32,265.9,ativo,3,Enlace estavel
+2,Comando Orbital,comunicacao,0x1A10,23.85,2.71,50.7,3.21,288.05,311.51,alerta,5,Queda de tensao no transmissor
+2,Habitacao Alfa,habitacao,0x1A17,11.83,2.75,92.4,2.98,406.19,427.85,ativo,2,Sem anomalias
+2,Habitacao Beta,habitacao,0x1A1E,12.32,1.31,57.7,0.81,306.95,331.24,alerta,3,Sinal instavel na antena
+2,Agricultura Norte,agricultura,0x1A25,12.5,1.94,56.4,0.1,286.82,284.81,ativo,1,Operacao normal
+2,Agricultura Sul,agricultura,0x1A2C,12.21,2.14,67.6,0.38,315.28,327.91,ativo,1,Sem anomalias
+2,Laboratorio Geologico,laboratorio,0x1A33,11.73,2.43,44.0,0.39,259.25,275.25,alerta,3,Perda de pacotes elevada
+2,Laboratorio Biologico,laboratorio,0x1A3A,12.51,1.59,20.5,1.11,222.89,232.57,ativo,1,Sem anomalias
+2,Suporte Medico,suporte medico,0x1A41,12.28,1.1,73.9,0,334.16,366.81,alerta,5,Latencia acima do previsto
+2,Armazenamento de Dados,armazenamento de dados,0x1A48,12.49,1.22,40.2,3.66,310.17,330.67,alerta,5,Sinal instavel na antena
+2,Antena Redundante,comunicacao,0x1A4F,23.14,1.43,47.8,3.26,307.37,319.33,alerta,5,Perda de pacotes elevada
+3,Comunicacao Central,comunicacao,0x1A03,24.09,1.19,67.1,1.96,335.8,353.77,ativo,3,Enlace estavel
+3,Controle de Missao,comunicacao,0x1A0A,23.83,3.23,67.2,1.31,287.63,289.62,manutencao,3,Manutencao preventiva agendada
+3,Comando Orbital,comunicacao,0x1A11,23.29,2.5,39.9,2.42,256.49,252.06,ativo,3,Sem anomalias
+3,Habitacao Alfa,habitacao,0x1A18,11.23,2.52,81.4,2.55,377.83,421.73,alerta,4,Sinal instavel na antena
+3,Habitacao Beta,habitacao,0x1A1F,12.29,2.01,40.7,1.4,269.85,276.42,manutencao,1,Troca de cabo de rede
+3,Agricultura Norte,agricultura,0x1A26,12.57,1.57,90.5,3.55,420.61,455.24,alerta,4,Queda de tensao no transmissor
+3,Agricultura Sul,agricultura,0x1A2D,11.58,2.08,53.3,0.19,281.17,303.38,alerta,3,Perda de pacotes elevada
+3,Laboratorio Geologico,laboratorio,0x1A34,12.34,2.52,60.2,2.22,321.88,337.96,ativo,1,Operacao normal
+3,Laboratorio Biologico,laboratorio,0x1A3B,11.27,3.48,77.4,3.27,370.69,383.54,alerta,3,Queda de tensao no transmissor
+3,Suporte Medico,suporte medico,0x1A42,12.44,1.23,70.7,0.98,340.07,357.37,ativo,3,Enlace estavel
+3,Armazenamento de Dados,armazenamento de dados,0x1A49,12.1,1.15,46.3,2.26,304.26,318.24,ativo,3,Operacao normal
+3,Antena Redundante,comunicacao,0x1A50,23.33,2.8,58.0,2.76,297.54,292.77,ativo,3,Sem anomalias
+4,Comunicacao Central,comunicacao,0x1A04,24.02,3.26,51.4,2.04,261.18,278.55,alerta,5,Perda de pacotes elevada
+4,Controle de Missao,comunicacao,0x1A0B,24.01,0.81,80.4,0,344.36,368.71,alerta,5,Sinal instavel na antena
+4,Comando Orbital,comunicacao,0x1A12,23.95,0.83,83.4,0,350.92,357.78,ativo,4,Sem anomalias
+4,Habitacao Alfa,habitacao,0x1A19,11.53,2.27,75.7,1.39,349.02,370.75,alerta,3,Perda de pacotes elevada
+4,Habitacao Beta,habitacao,0x1A20,11.43,2.49,48.9,1.82,292.0,305.79,manutencao,1,Manutencao preventiva agendada
+4,Agricultura Norte,agricultura,0x1A27,11.36,2.72,27.5,1.29,232.88,243.68,ativo,1,Operacao normal
+4,Agricultura Sul,agricultura,0x1A2E,12.3,1.41,62.4,2.38,340.35,352.3,ativo,1,Operacao normal
+4,Laboratorio Geologico,laboratorio,0x1A35,12.21,3.13,32.6,1.18,237.11,239.93,ativo,1,Sem anomalias
+4,Laboratorio Biologico,laboratorio,0x1A3C,12.58,0.94,89.0,1.5,392.74,391.94,ativo,2,Enlace estavel
+4,Suporte Medico,suporte medico,0x1A43,12.11,1.57,53.3,2.2,315.38,353.11,alerta,5,Perda de pacotes elevada
+4,Armazenamento de Dados,armazenamento de dados,0x1A4A,11.59,0.84,59.5,1.13,321.01,302.2,ativo,3,Sem anomalias
+4,Antena Redundante,comunicacao,0x1A51,23.6,2.2,63.9,0.8,292.43,292.02,ativo,3,Operacao normal

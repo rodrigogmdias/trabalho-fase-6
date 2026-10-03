@@ -1,0 +1,12 @@
+[project]
+name = "trabalho-fase-6"
+version = "0.1.0"
+description = "SCIC - Sistema de Comunicação Interplanetária da Colônia (Aurora Siger) - Fase 6"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+]
